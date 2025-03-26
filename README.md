@@ -2,6 +2,24 @@
 
 A nix derivation for [Xtreme Download Manager](https://github.com/subhra74/xdm) 
 
+---
+
+> [!WARNING]
+> *As of 26/03/2025*
+>  
+> XDM may probably be unmantained, the last commit on main branch was a few years ago and
+> issues are not being updated and / or worked on.
+> If at any point XDM is updated, this message will be removed.
+>
+> *See: [subhra74/xdm#1260](https://github.com/subhra74/xdm/issues/1260)*
+>
+> Consider using a more up-to-date download manager
+> * [AB Download Manager](https://github.com/amir1376/ab-download-manager)
+> * [JDownloader 2](https://jdownloader.org/)
+> * [JDownloader 2 (docker container)](https://github.com/jlesage/docker-jdownloader-2)
+
+---
+
 ## Usage
 
 As of now this derivation has not been published on any repository. You'll need to pull the derivation and add it to your configuration like so:
