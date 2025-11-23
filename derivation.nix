@@ -9,7 +9,7 @@
   gtk3,
   lttng-ust_2_12,
   openssl,
-  gnome3,
+  gnome,
   ...
 }:
 
@@ -39,7 +39,7 @@ stdenv.mkDerivation rec {
     gtk3
     lttng-ust_2_12
     openssl # Provide libssl for runtime
-    gnome3.adwaita-icon-theme # Provide common cursor theme from gnome3
+    gnome.adwaita-icon-theme # Provide common cursor theme from gnome
   ];
 
   unpackPhase = "true";
